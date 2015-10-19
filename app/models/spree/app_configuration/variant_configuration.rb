@@ -7,6 +7,6 @@ module SpreeVariantOptions
     preference :option_value_url, :string, :default => '/spree/option_values/:id/:style/:basename.:extension'
     preference :option_value_path, :string, :default => ':rails_root/public/spree/option_values/:id/:style/:basename.:extension'
     preference :option_value_styles, :string, default: "{\"small\":\"40x30#\",\"large\":\"140x110#\"}"
-    preference :option_value_default_style, :string, default: 'small'
+    preference :option_value_default_style, :string, default: 'normal'
   end
 end
